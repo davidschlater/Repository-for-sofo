@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.1'
+
+target 'Sofo' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'NVActivityIndicatorView'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'IQKeyboardManagerSwift', '4.0.6'
+  pod 'Koloda', '~> 4.3.1'
+  pod 'GoogleSignIn'
+  pod 'Google/SignIn'
+  # pod 'TwitterKit'
+
+  # Pods for Sofo
+
+end
